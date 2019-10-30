@@ -8,9 +8,9 @@
 </div>
 ```
 ## Comments inside JSX
-
+```html
 {/* Comment */}
-
+```
 ## Any HTML emelent inside JSX can be self closing
 ### But self closing elements can't contain any content
 
@@ -20,9 +20,9 @@
 ```
 
 ## JavaScript code inside JSX
-
+```html
 { let a =5 }
-
+```
 ## Render JSX to DOM
 
 ```html
@@ -56,4 +56,19 @@ const MyComponent = function() {
   );
  };
 ```
-
+### Statful React Component
+#### Create via class ES6 method
+```html
+class MyComponent extends React.Component {
+  constructor(props) {
+    super(props);
+  }
+  render() {
+    return(
+    <div>
+      <h1>Hello React!</h1>
+    </div>
+    );
+  }
+};
+```
