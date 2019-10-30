@@ -1,5 +1,5 @@
-### JSX must return a single element. 
-#### This means that you need to create one root HTML element, e.g. <div>
+## JSX must return a single element. 
+### This means that you need to create one root HTML element, e.g. <div>
 ```html
 <div>
   <p>Paragraph One</p>
@@ -7,15 +7,15 @@
   <p>Paragraph Three</p>
 </div>
 ```
-### Comments inside JSX
+## Comments inside JSX
 
 {/* Comment */}
 
-### JavaScript code inside JSX
+## JavaScript code inside JSX
 
 { let a =5 }
 
-### Render JSX to DOM
+## Render JSX to DOM
 
 ```html
 const JSX = (
@@ -28,8 +28,8 @@ const JSX = (
 
 ReactDOM.render(JSX,document.getElementById('example-node'));
 
-### JSX Elements can't use reserved Javascript words
-#### all HTML attributes and event references have to be written in CamelCase
+## JSX Elements can't use reserved Javascript words
+### all HTML attributes and event references have to be written in CamelCase
 
 class -> className
 onclick -> onClick
