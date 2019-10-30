@@ -1,12 +1,12 @@
 ## JSX must return a single element. 
 ### This means that you need to create one root HTML element, e.g. <div>
-
+```html
 <div>
   <p>Paragraph One</p>
   <p>Paragraph Two</p>
   <p>Paragraph Three</p>
 </div>
-
+```
 ## Comments inside JSX
 
 {/* Comment */}
