@@ -39,11 +39,13 @@ ReactDOM.render(JSX,document.getElementById('example-node'));
 ## JSX Elements can't use reserved Javascript words
 ### all HTML attributes and event references have to be written in CamelCase
 
+```html
 class -> className
 onclick -> onClick
 onchange -> onChange
+```
 
-### Stateless React Component
+## Stateless React Component
 ### Can be created via a function
 ### Function name must begin with a Capital
 
