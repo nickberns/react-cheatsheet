@@ -56,8 +56,8 @@ const MyComponent = function() {
   );
  };
 ```
-### Statful React Component
-#### Create via class ES6 method
+## Stateful React Component
+### Create via class ES6 method
 ```html
 class MyComponent extends React.Component {
   constructor(props) {
