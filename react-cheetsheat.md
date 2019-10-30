@@ -11,6 +11,14 @@
 
 {/* Comment */}
 
+## Any HTML emelent inside JSX can be self closing
+### But self closing elements can't contain any content
+
+```html
+<div />
+<br />
+```
+
 ## JavaScript code inside JSX
 
 { let a =5 }
@@ -34,3 +42,16 @@ ReactDOM.render(JSX,document.getElementById('example-node'));
 class -> className
 onclick -> onClick
 onchange -> onChange
+
+### Stateless React Component
+### Can be created via a function
+### Function name must begin with a Capital
+
+```html
+const MyComponent = function() {
+  return(
+      <div>Hello</div>
+  );
+ };
+```
+
