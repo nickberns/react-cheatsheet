@@ -81,5 +81,5 @@ return (
   <Dashboard />
   <Footer />
  </App>
-)
+);
 ```
