@@ -72,3 +72,14 @@ class MyComponent extends React.Component {
   }
 };
 ```
+## JSX Parent Component with Child Components
+### The Children are nested within the Parent
+```html
+return (
+ <App>
+  <Navbar />
+  <Dashboard />
+  <Footer />
+ </App>
+)
+```
