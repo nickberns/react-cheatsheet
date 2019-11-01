@@ -83,3 +83,29 @@ return (
  </App>
 );
 ```
+## Render React component to DOM
+```html
+ReactDOM.render(<TypesOfFood />,document.getElementById('challenge-node'));
+```
+## Default props
+```html
+MyComponent.defaultProps = { location: 'San Francisco' }
+```
+## Pass integer as props
+```html
+<Items quantity={10} />
+```
+## Pass string as props
+```html
+<Items quantity='ten' />
+```
+## PropTypes
+### Here's an example to require the type function for a prop called handleClick:
+```html
+MyComponent.propTypes = { handleClick: PropTypes.func.isRequired }
+```
+1. Spell the type as full name except for 2 exceptions: bool & func
+2. It needs to be imported 
+```html
+import React, { PropTypes } from 'react';
+```
