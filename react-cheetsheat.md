@@ -109,3 +109,5 @@ MyComponent.propTypes = { handleClick: PropTypes.func.isRequired }
 ```html
 import React, { PropTypes } from 'react';
 ```
+## Always start component names with a capital letter.
+React treats components starting with lowercase letters as DOM tags. For example, <div /> represents an HTML div tag, but <Welcome /> represents a component and requires Welcome to be in scope.
