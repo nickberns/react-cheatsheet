@@ -114,7 +114,7 @@ React treats components starting with lowercase letters as DOM tags. For example
 
 ## All React components must act like pure functions with respect to their props.
 
-Converting a Function to a Class
+### Converting a Function to a Class
 
 You can convert a function component like Clock to a class in five steps:
 
