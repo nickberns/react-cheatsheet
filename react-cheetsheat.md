@@ -7,6 +7,14 @@
   <p>Paragraph Three</p>
 </div>
 ```
+You can also use a React fragement instead of div
+```html
+<React.Fragment>
+  <p>Paragraph One</p>
+  <p>Paragraph Two</p>
+  <p>Paragraph Three</p>
+</React.Fragement>
+```  
 ## Comments inside JSX
 ```html
 {/* Comment */}
