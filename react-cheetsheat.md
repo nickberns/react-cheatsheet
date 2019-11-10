@@ -172,3 +172,10 @@ return(
   </div>
 )
 ```
+## It's clean to define defaultProps and propTypes as statics inside a React Class
+```html
+  static defaultProps = {
+    title: "Github Finder",
+    icon: "fab fa-github"
+  };
+```
