@@ -179,3 +179,19 @@ return(
     icon: "fab fa-github"
   };
 ```
+## Inline style in double curly braces, because its JS and an Object of styling properties
+```html
+ <img src={this.state.avatar_url} alt="" className='round-img' style={{ width: '60px' }} />
+```
+
+## State destructuring, extract values from state 
+### you can access state property by name instead of this.state.key all the time
+
+```html
+render(){
+const {login, avatar, img } = this.state;
+
+return(
+<div>{avatar}</div>
+);
+}
