@@ -150,3 +150,25 @@ class Clock extends React.Component {
 2. State Updates May Be Asynchronous. React may batch multiple setState() calls into a single update for performance.
 Because this.props and this.state may be updated asynchronously, you should not rely on their values for calculating the next state.
 3. Your state may contain several independent variables. Then you can update them independently with separate setState() calls.
+
+## Conditional rendering in JSX
+### Using IF conditionals
+```html
+const showName = true;
+
+return(
+  <div className='App'>
+    <h1>Hello {showName ? 'Nick' : null}</h1>
+  </div>
+)
+```
+### Using AND conditionals
+```html
+const showName = true;
+
+return(
+  <div className='App'>
+    <h1>Hello {showName && 'Nick'}</h1>
+  </div>
+)
+```
