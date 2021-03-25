@@ -7,7 +7,7 @@
   <p>Paragraph Three</p>
 </div>
 ```
-You can also use a React fragement instead of div
+You can also use a React fragement instead of using div
 ```html
 <React.Fragment>
   <p>Paragraph One</p>
