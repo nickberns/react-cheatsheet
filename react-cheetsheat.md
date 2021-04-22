@@ -1,5 +1,5 @@
 ## JSX must return a single element. 
-### This means that you need to create one root HTML element, e.g. <div>
+### This means that you need to create one root HTML element, for e.g. <div>
 ```html
 <div>
   <p>Paragraph One</p>
